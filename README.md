@@ -80,7 +80,7 @@ This project answers five core business questions directly relevant to operation
 
 Understanding how revenue is distributed across orders and how it has changed year over year.
 
-![Revenue Distribution](files.zip/revenue_dist.png)
+![Revenue Distribution](revenue_dist.png)
 
 > A right-skewed distribution confirms that a small number of high-value orders drive a disproportionate share of total revenue — a common e-commerce pattern with significant implications for customer retention strategy.
 
@@ -90,7 +90,7 @@ Understanding how revenue is distributed across orders and how it has changed ye
 
 Comparing which categories attract the most orders versus which generate the most revenue.
 
-![Category Analysis](files.zip/category.png)
+![Category Analysis](category.png)
 
 > A category leading in order count does not necessarily lead in revenue. High-price categories can dominate revenue with fewer transactions — margin strategy matters more than volume strategy.
 
@@ -100,7 +100,7 @@ Comparing which categories attract the most orders versus which generate the mos
 
 Which countries drive the most orders and revenue — and whether concentration risk exists.
 
-![Geographic Analysis](files.zip/geography.png)
+![Geographic Analysis](geography.png)
 
 > Heavy concentration in a few countries creates revenue risk. If the top 2–3 markets slow down, there is limited buffer from other regions.
 
@@ -110,7 +110,7 @@ Which countries drive the most orders and revenue — and whether concentration 
 
 Breaking down Delivered vs Cancelled vs Returned orders and their revenue impact.
 
-![Order Status](files.zip/order_status.png)
+![Order Status](order_status.png)
 
 > Every cancelled or returned order is a direct operational cost — lost revenue plus logistics overhead. The combined loss rate is a key KPI for fulfilment health.
 
@@ -120,7 +120,7 @@ Breaking down Delivered vs Cancelled vs Returned orders and their revenue impact
 
 Which payment methods are most popular, and which carry the highest cancellation rates.
 
-![Payment Method](files.zip/payment.png)
+![Payment Method](payment.png)
 
 > Cash on Delivery allows customers to reject orders at the door with no upfront cost — making it structurally riskier than prepaid methods.
 
@@ -130,9 +130,9 @@ Which payment methods are most popular, and which carry the highest cancellation
 
 Testing whether discounts actually increase order value and quantity ordered.
 
-![Discount Impact](files.zip/discount.png)
+![Discount Impact](discount.png)
 
-![Discount by Category](files.zip/discount_cat.png)
+![Discount by Category](discount_cat.png)
 
 > Near-zero correlation between discount level and total order value means blanket discounts are margin transfers — not growth drivers.
 
@@ -142,7 +142,7 @@ Testing whether discounts actually increase order value and quantity ordered.
 
 Identifying which numeric variables move together across the dataset.
 
-![Correlation Heatmap](files.zip/correlation.png)
+![Correlation Heatmap](correlation.png)
 
 > UnitPrice is the strongest driver of TotalAmount. Pricing strategy has more leverage than discount depth or quantity incentives.
 
